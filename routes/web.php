@@ -19,3 +19,8 @@ Route::get('/', [
     'uses' => 'HomeController@index',
     'as' => 'public.home'
 ]);
+
+Route::get('/about-us', [
+    'uses' => 'HomeController@aboutUs',
+    'as' => 'public.aboutUs'
+]);

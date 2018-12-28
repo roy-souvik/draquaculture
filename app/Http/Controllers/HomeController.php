@@ -10,4 +10,10 @@ class HomeController extends Controller
     {
         return view('frontend.pages.home.index');
     }
+
+    public function aboutUs()
+    {
+        return view('frontend.pages.about.index');
+    }
+
 }

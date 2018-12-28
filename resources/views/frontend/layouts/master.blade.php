@@ -7,7 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Dr. Aqua Culture</title>
+        <title>{{ config('app.name') }}</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/css/bootstrap.css'}}">
         <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/linericon/style.css'}}">
@@ -48,7 +48,7 @@
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<a class="navbar-brand logo_h" href="index.html">
-                          <img src="{{ config('view.frontend_theme') . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="   width: 50px;">
+                          <img src="{{ config('view.frontend_theme') . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="width: 50px;">
                           {{ config('app.name') }}
                         </a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,37 +60,45 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="{{ route('public.home') }}">Home</a>
                                 </li>
-								<li class="nav-item submenu dropdown">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>
+                                </li>
+								{{-- <li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
                                             <a class="nav-link" href="category.html">Shop Category</a>
+                                        </li>
 										<li class="nav-item">
                                             <a class="nav-link" href="single-product.html">Product Details</a>
-										<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a>
+                                        </li>
+										<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
 										<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
 										<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
 									</ul>
-								</li>
-								<li class="nav-item submenu dropdown">
+								</li> --}}
+								{{-- <li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 									</ul>
 								</li>
-								<li class="nav-item submenu dropdown">
+                                <li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="login.html">Login</a>
-										<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a>
+										<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+										<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
 										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
 									</ul>
-								</li>
+								</li> --}}
 								<li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
 							</ul>
 							{{-- <ul class="nav navbar-nav navbar-right">
