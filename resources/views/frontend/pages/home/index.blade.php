@@ -8,12 +8,11 @@
             <div class="banner_content row">
                 <div class="col-lg-5">
                     <h3>Portable Water Tank</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                    <a class="white_bg_btn" href="#">View Collection</a>
+                    <p>PVC tarpaulin tank for fish rearing for both RAS (Recirculating Aquaculture System) and Biofloc.</a>
                 </div>
                 <div class="col-lg-7">
                     <div class="halemet_img">
-                        <img src="{{ config('view.frontend_theme') . '/img/banner/banner3.jpeg' }}" alt="">
+                        <img src="{{ config('view.frontend_theme') . '/img/banner/banner3.jpeg' }}" alt="" style="width: 350px;">
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
         <link rel="shortcut icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">
         <link rel="icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">
 
-        <title>{{ config('app.name') }}</title>
+        <title>{{ strtoupper(config('app.name')) }}</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
@@ -39,7 +39,7 @@
 						<a href="mailto:{{ config('draquaculture.support_email') }}">
                             {{ config('draquaculture.support_email') }}
                         </a>
-						<a href="#">Welcome to {{ config('app.name') }}</a>
+						<a href="#">Welcome to {{ strtoupper(config('app.name')) }}</a>
 					</div>
 					<div class="float-right">
 						<ul class="header_social">
@@ -55,9 +55,9 @@
             	<nav class="navbar navbar-expand-lg navbar-light main_box">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="{{ route('public.home') }}">
-                          <img src="{{ $themeUrl . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="width: 50px;">
-                          {{ config('app.name') }}
+						<a class="navbar-brand logo_h" href="{{ route('public.home') }}" style="font-size: 28px;">
+                          <img src="{{ $themeUrl . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="width: 88px;">
+                          {{ strtoupper(config('app.name')) }}
                         </a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-bar"></span>
@@ -71,7 +71,7 @@
                                     <a class="nav-link" href="{{ route('public.home') }}">Home</a>
                                 </li>
                                 <li class="nav-item {{  Route::currentRouteNamed('public.shop') ? 'active' : '' }}">
-                                    <a class="nav-link" href="{{ route('public.shop') }}">Shop</a>
+                                    <a class="nav-link" href="{{ route('public.shop') }}">Products</a>
                                 </li>
                                 <li class="nav-item {{  Route::currentRouteNamed('public.aboutUs') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>

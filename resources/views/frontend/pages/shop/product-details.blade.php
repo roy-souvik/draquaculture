@@ -9,8 +9,8 @@
         <div class="banner_content text-center">
             <h2>Single Product Page</h2>
             <div class="page_link">
-                <a href="index.html">Home</a>
-                <a href="category.html">Category</a>
+                <a href="{{ route('public.home') }}">Home</a>
+                {{-- <a href="{{ route('') }}">Category</a> --}}
                 <a href="single-product.html">Product Details</a>
             </div>
         </div>

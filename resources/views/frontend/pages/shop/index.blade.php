@@ -7,10 +7,10 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h2>Shop</h2>
+                <h2>Products</h2>
                 <div class="page_link">
                     <a href="{{ route('public.home') }}">Home</a>
-                    <a href="#">Shop</a>
+                    <a href="#">Products</a>
                     {{-- <a href="category.html">Women Fashion</a> --}}
                 </div>
             </div>
@@ -23,7 +23,7 @@
 <section class="cat_product_area p_120">
 <div class="container">
 <div class="row flex-row-reverse">
-    <div class="col-lg-9">
+    <div class="col-lg-12">
         {{-- <div class="product_top_bar">
             <div class="left_dorp">
                 <select class="sorting">
@@ -59,11 +59,11 @@
                         <div class="f_p_img">
                             <img class="img-fluid" src="{{ config('view.frontend_theme') . '/product-images//' . $i . '.jpeg' }}" alt="">
                             <div class="p_icon">
-                                <a href="#"><i class="lnr lnr-heart"></i></a>
-                                {{-- <a href="#"><i class="lnr lnr-cart"></i></a> --}}
+                                {{-- <a href="#"><i class="lnr lnr-heart"></i></a> --}}
+                                <a href="{{ route('public.contactUs') }}"><i class="lnr lnr-cart"></i></a>
                             </div>
                         </div>
-                        <a href="{{ route('public.shop.details') }}"><h4>Product {{ $i }}</h4></a>
+                        <a href="{{ route('public.contactUs') }}"><h4>Product {{ $i }}</h4></a>
                         {{-- <h5>$150.00</h5> --}}
                     </div>
                 </div>
@@ -71,7 +71,7 @@
 
         </div>
     </div>
-    <div class="col-lg-3">
+    {{-- <div class="col-lg-3">
         <div class="left_sidebar_area">
             <aside class="left_widgets cat_widgets">
                 <div class="l_w_title">
@@ -112,7 +112,7 @@
                     </ul>
                 </div>
             </aside>
-            {{-- <aside class="left_widgets p_filter_widgets">
+            <aside class="left_widgets p_filter_widgets">
                 <div class="l_w_title">
                     <h3>Product Filters</h3>
                 </div>
@@ -146,9 +146,9 @@
                         </div>
                     </div>
                 </div>
-            </aside> --}}
+            </aside>
         </div>
-    </div>
+    </div> --}}
 </div>
 </div>
 </section>

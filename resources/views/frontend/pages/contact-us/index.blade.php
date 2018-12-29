@@ -7,7 +7,7 @@
 <div class="banner_inner d-flex align-items-center">
 <div class="container">
     <div class="banner_content text-center">
-        <h2>Contact Us</h2>
+        <h2>For more details contact us</h2>
         <div class="page_link">
             <a href="{{ route('public.home') }}">Home</a>
             <a href="#">Contact Us</a>
@@ -38,11 +38,12 @@
                 <p> {{ config('draquaculture.address_line2') }} </p>
             </div>
             <div class="info_item">
-                <i class="lnr lnr-phone-handset"></i>
+                {{-- <i class="lnr lnr-phone-handset"></i> --}}
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 <h6>
                     <a href="#"> {{ config('draquaculture.contact_phone') }} </a>
                 </h6>
-                <p>Mon to Sat 10am to 6 pm</p>
+                <p>Call or Whatsapp</p>
             </div>
             <div class="info_item">
                 <i class="lnr lnr-envelope"></i>
@@ -51,6 +52,7 @@
             </div>
         </div>
     </div>
+
     <div class="col-lg-9">
         <form class="row contact_form" action="https://formspree.io/{{ config('draquaculture.support_email') }}" method="post" id="contactForm" novalidate="novalidate">
             <div class="col-md-6">
