@@ -22,7 +22,7 @@
 <!--================End Home Banner Area =================-->
 
 <!--================Feature Product Area =================-->
-<!-- <section class="feature_product_area">
+{{-- <section class="feature_product_area">
     <div class="main_box">
         <div class="container">
             <div class="row hot_product_inner">
@@ -159,11 +159,11 @@
             </div>
         </div>
     </div>
-</section> -->
+</section> --}}
 <!--================End Feature Product Area =================-->
 
 <!--================Deal Timer Area =================-->
-<!-- <section class="timer_area">
+{{-- <section class="timer_area">
     <div class="container">
         <div class="main_title">
             <h2>Exclusive Hot Deal Ends Soon!</h2>
@@ -191,7 +191,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section> --}}
 <!--================End Deal Timer Area =================-->
 
 <!--================Latest Product Area =================-->
@@ -201,27 +201,30 @@
             <div class="feature_product_inner">
                 <div class="main_title">
                     <h2>Latest Products</h2>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                    {{-- <p>Who are in extremely love with eco friendly system.</p> --}}
                 </div>
                 <div class="latest_product_inner row">
+                    @php
+                        $products = config('draquaculture.products');
+                    @endphp
 
-                    @for ($i=1; $i <= 12; $i++)
+                    @foreach ($products as $product)
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="f_p_item">
                                 <div class="f_p_img">
-                                    <img class="img-fluid" src="{{ config('view.frontend_theme') . '/product-images//' . $i . '.jpeg' }}" alt="">
+                                    <img class="img-fluid" src="{{ config('view.frontend_theme') . '/product-images//' . $product['image']}}" alt="{{ $product['name'] }}">
                                     <div class="p_icon">
-                                        <a href="#"><i class="lnr lnr-heart"></i></a>
-                                        {{-- <a href="#"><i class="lnr lnr-cart"></i></a> --}}
+                                        {{-- <a href="#"><i class="lnr lnr-heart"></i></a> --}}
+                                        <a href="{{ route('public.contactUs') }}"><i class="lnr lnr-cart"></i></a>
                                     </div>
                                 </div>
-                                <a href="#">
-                                    <h4>Product {{ $i }}</h4>
+                                <a href="{{ route('public.contactUs') }}">
+                                    <h4>{{ $product['name'] }}</h4>
                                 </a>
                                 {{-- <h5>$150.00</h5> --}}
                             </div>
                         </div>
-                    @endfor
+                    @endforeach
 
                 </div>
             </div>

@@ -11,4 +11,23 @@ return [
 
     'address_line2' => ' Kolkata 700034, West Bengal',
 
+    'products' => [
+        ['name' => 'Air Stone', 'image' => '2.jpeg'],
+        ['name' => 'Air Blower', 'image' => '3.jpeg'],
+        ['name' => 'Wire Mesh Tank', 'image' => '7.jpeg'],
+        ['name' => 'PVC Portable Tank', 'image' => '8.jpeg'],
+        ['name' => 'Air Stone', 'image' => '9.jpeg'],
+        ['name' => 'Air Stone', 'image' => '11.jpeg'],
+        ['name' => 'Air Stone', 'image' => '12.jpeg'],
+        ['name' => 'Air Stone', 'image' => '13.jpeg'],
+        ['name' => 'Silicon Air Pipe', 'image' => '14.jpeg'],
+        ['name' => 'Silicon Air Pipe', 'image' => '15.jpeg'],
+        ['name' => 'Air Blower', 'image' => '16.jpeg'],
+        ['name' => 'Air Pump', 'image' => '17.jpeg'],
+        ['name' => 'Air Pump', 'image' => '18.jpeg'],
+        ['name' => 'Air Stone', 'image' => '21.jpg'],
+        ['name' => ' Portable Water Tank', 'image' => '22.jpg'],
+        ['name' => 'Air Stone', 'image' => '23.jpg'],
+    ],
+
 ];

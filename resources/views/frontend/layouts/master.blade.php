@@ -136,7 +136,9 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">About Us</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            <p>
+                                We provide solution for aquaculture for sustainable growth and empowerment of our farmer brothers...
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
