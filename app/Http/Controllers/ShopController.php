@@ -13,7 +13,6 @@ class ShopController extends Controller
 
     public function productDetails()
     {
-        dd('product-details');
         return view('frontend.pages.shop.product-details');
     }
 

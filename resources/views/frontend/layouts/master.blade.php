@@ -59,13 +59,13 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active">
+								<li class="nav-item {{  Route::currentRouteNamed('public.home') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.home') }}">Home</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item {{  Route::currentRouteNamed('public.shop') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.shop') }}">Shop</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item {{  Route::currentRouteNamed('public.aboutUs') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>
                                 </li>
 								{{-- <li class="nav-item submenu dropdown">
@@ -97,7 +97,7 @@
 										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
 									</ul>
 								</li> --}}
-								<li class="nav-item">
+								<li class="nav-item {{  Route::currentRouteNamed('public.contactUs') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.contactUs') }}">Contact</a>
                                 </li>
 							</ul>

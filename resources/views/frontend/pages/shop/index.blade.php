@@ -52,117 +52,30 @@
             </div>
         </div> --}}
         <div class="latest_product_inner row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-1.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
+
+            @for ($i=1; $i <= 20; $i++)
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="f_p_item">
+                        <div class="f_p_img">
+                            <img class="img-fluid" src="{{ config('view.frontend_theme') . '/product-images//' . $i . '.jpeg' }}" alt="">
+                            <div class="p_icon">
+                                <a href="#"><i class="lnr lnr-heart"></i></a>
+                                {{-- <a href="#"><i class="lnr lnr-cart"></i></a> --}}
+                            </div>
                         </div>
+                        <a href="{{ route('public.shop.details') }}"><h4>Product {{ $i }}</h4></a>
+                        {{-- <h5>$150.00</h5> --}}
                     </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-2.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-3.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-4.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-5.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-6.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-7.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="f_p_item">
-                    <div class="f_p_img">
-                        <img class="img-fluid" src="img/product/feature-product/f-p-8.jpg" alt="">
-                        <div class="p_icon">
-                            <a href="#"><i class="lnr lnr-heart"></i></a>
-                            <a href="#"><i class="lnr lnr-cart"></i></a>
-                        </div>
-                    </div>
-                    <a href="#"><h4>Long Sleeve TShirt</h4></a>
-                    <h5>$150.00</h5>
-                </div>
-            </div>
+            @endfor
+
         </div>
     </div>
     <div class="col-lg-3">
         <div class="left_sidebar_area">
             <aside class="left_widgets cat_widgets">
                 <div class="l_w_title">
-                    <h3>Browse Categories</h3>
+                    <h3>Categories</h3>
                 </div>
                 <div class="widgets_inner">
                     <ul class="list">
@@ -199,7 +112,7 @@
                     </ul>
                 </div>
             </aside>
-            <aside class="left_widgets p_filter_widgets">
+            {{-- <aside class="left_widgets p_filter_widgets">
                 <div class="l_w_title">
                     <h3>Product Filters</h3>
                 </div>
@@ -233,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </aside>
+            </aside> --}}
         </div>
     </div>
 </div>
