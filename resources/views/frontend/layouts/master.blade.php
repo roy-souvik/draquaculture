@@ -63,7 +63,7 @@
                                     <a class="nav-link" href="{{ route('public.home') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Shop</a>
+                                    <a class="nav-link" href="{{ route('public.shop') }}">Shop</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>
@@ -98,7 +98,7 @@
 									</ul>
 								</li> --}}
 								<li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="{{ route('public.contactUs') }}">Contact</a>
                                 </li>
 							</ul>
 							{{-- <ul class="nav navbar-nav navbar-right">
@@ -172,8 +172,8 @@
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | Powered by
-                        {{-- <a href="http://cerebroit.com" target="_blank">Cerebroit Services</a> --}}
+                        </script> All rights reserved | Maintained by
+                        <a href="http://cerebroit.com" target="_blank">Cerebroit Services</a>
 
                     </p>
                 </div>

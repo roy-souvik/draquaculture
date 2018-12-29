@@ -24,3 +24,18 @@ Route::get('/about-us', [
     'uses' => 'HomeController@aboutUs',
     'as' => 'public.aboutUs'
 ]);
+
+Route::get('/contact-us', [
+    'uses' => 'HomeController@contactUs',
+    'as' => 'public.contactUs'
+]);
+
+Route::get('/shop', [
+    'uses' => 'ShopController@index',
+    'as' => 'public.shop'
+]);
+
+Route::get('/shop/product-details', [
+    'uses' => 'ShopController@productDetails',
+    'as' => 'public.shop.details'
+]);
