@@ -231,13 +231,17 @@
 <!--================End Latest Product Area =================-->
 
 <!--================Clients Logo Area =================-->
-<!-- <section class="clients_logo_area">
+<section class="clients_logo_area">
     <div class="container">
         <div class="main_title">
-            <h2>Top Brands of this Month</h2>
-            <p>Who are in extremely love with eco friendly system.</p>
+            <h2>Exclusive Video!</h2>
+            {{-- <p>Who are in extremely love with eco friendly system.</p> --}}
         </div>
-        <div class="clients_slider owl-carousel">
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/61_zthTcH04" allowfullscreen></iframe>
+        </div>
+        {{-- <div class="clients_slider owl-carousel">
             <div class="item">
                 <img src="img/clients-logo/c-logo-1.png" alt="">
             </div>
@@ -253,13 +257,13 @@
             <div class="item">
                 <img src="img/clients-logo/c-logo-5.png" alt="">
             </div>
-        </div>
+        </div> --}}
     </div>
-</section> -->
+</section>
 <!--================End Clients Logo Area =================-->
 
 <!--================Most Product Area =================-->
-<!-- <section class="most_product_area">
+{{-- <section class="most_product_area">
     <div class="main_box">
         <div class="container">
             <div class="main_title">
@@ -394,7 +398,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section> --}}
 <!--================End Most Product Area =================-->
 
 @endsection

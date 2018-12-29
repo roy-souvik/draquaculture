@@ -30,12 +30,22 @@ Route::get('/contact-us', [
     'as' => 'public.contactUs'
 ]);
 
+Route::get('/products', [
+    'uses' => 'ShopController@index',
+    'as' => 'public.shop'
+]);
+
+Route::get('/product-packages', [
+    'uses' => 'ShopController@packages',
+    'as' => 'public.productPackages'
+]);
+
 Route::get('/shop', [
     'uses' => 'ShopController@index',
     'as' => 'public.shop'
 ]);
 
-Route::get('/shop/product-details', [
-    'uses' => 'ShopController@productDetails',
-    'as' => 'public.shop.details'
-]);
+// Route::get('/shop/product-details', [
+//     'uses' => 'ShopController@productDetails',
+//     'as' => 'public.shop.details'
+// ]);

@@ -11,9 +11,14 @@ class ShopController extends Controller
         return view('frontend.pages.shop.index');
     }
 
-    public function productDetails()
+    // public function productDetails()
+    // {
+    //     return view('frontend.pages.shop.product-details');
+    // }
+
+    public function packages()
     {
-        return view('frontend.pages.shop.product-details');
+        return view('frontend.pages.packages.index');
     }
 
 }

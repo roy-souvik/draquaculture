@@ -41,14 +41,14 @@
                         </a>
 						<a href="#">Welcome to {{ strtoupper(config('app.name')) }}</a>
 					</div>
-					<div class="float-right">
+					{{-- <div class="float-right">
 						<ul class="header_social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
 						</ul>
-					</div>
+					</div> --}}
            		</div>
            	</div>
             <div class="main_menu">
@@ -70,12 +70,19 @@
 								<li class="nav-item {{  Route::currentRouteNamed('public.home') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.home') }}">Home</a>
                                 </li>
+
                                 <li class="nav-item {{  Route::currentRouteNamed('public.shop') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.shop') }}">Products</a>
                                 </li>
+
+                                <li class="nav-item {{  Route::currentRouteNamed('public.productPackages') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ route('public.productPackages') }}">Product Packages</a>
+                                </li>
+
                                 <li class="nav-item {{  Route::currentRouteNamed('public.aboutUs') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>
                                 </li>
+
 								{{-- <li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
 									<ul class="dropdown-menu">
@@ -162,18 +169,18 @@
                             </ul>
                         </div>
                     </div> --}}
-                    <div class="col-lg-2 offset-lg-2 col-md-6 col-sm-6">
+                    {{-- <div class="col-lg-2 offset-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget f_social_wd">
                             <h6 class="footer_title">Follow Us</h6>
                             <p>Let us be social</p>
                             <div class="f_social">
                             	<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="fa fa-twitter"></i></a>
-								{{-- <a href="#"><i class="fa fa-dribbble"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a> --}}
+								<a href="#"><i class="fa fa-dribbble"></i></a>
+								<a href="#"><i class="fa fa-behance"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
                     <p class="col-lg-12 footer-text text-center">
