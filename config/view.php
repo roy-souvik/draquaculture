@@ -30,6 +30,6 @@ return [
 
     'compiled' => realpath(storage_path('framework/views')),
 
-    'frontend_theme' => url('themes/frontend'),
+    'frontend_theme' => 'themes/frontend',
 
 ];

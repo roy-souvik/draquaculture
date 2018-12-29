@@ -8,18 +8,21 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="icon" href="img/favicon.png" type="image/png">
         <title>{{ config('app.name') }}</title>
+        @php
+            $themeUrl = url(config('view.frontend_theme'));
+        @endphp
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/css/bootstrap.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/linericon/style.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/css/font-awesome.min.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/owl-carousel/owl.carousel.min.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/lightbox/simpleLightbox.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/nice-select/css/nice-select.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/animate-css/animate.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/vendors/jquery-ui/jquery-ui.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/linericon/style.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/font-awesome.min.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/nice-select/css/nice-select.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/animate-css/animate.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/jquery-ui/jquery-ui.css'}}">
         <!-- main css -->
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/css/style.css'}}">
-        <link rel="stylesheet" href="{{ config('view.frontend_theme') . '/css/responsive.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/style.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/responsive.css'}}">
     </head>
     <body>
 
@@ -47,8 +50,8 @@
             	<nav class="navbar navbar-expand-lg navbar-light main_box">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html">
-                          <img src="{{ config('view.frontend_theme') . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="width: 50px;">
+						<a class="navbar-brand logo_h" href="{{ route('public.home') }}">
+                          <img src="{{ $themeUrl . '/img/logo.jpg' }}" alt="{{ config('app.name') }} Logo" class="rounded-circle" style="width: 50px;">
                           {{ config('app.name') }}
                         </a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -183,21 +186,21 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="{{ config('view.frontend_theme') . '/js/jquery-3.2.1.min.js' }}"></script>
-        <script src="{{ config('view.frontend_theme') . '/js/popper.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/js/bootstrap.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/js/stellar.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/lightbox/simpleLightbox.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/nice-select/js/jquery.nice-select.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/isotope/imagesloaded.pkgd.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/isotope/isotope-min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/owl-carousel/owl.carousel.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/js/jquery.ajaxchimp.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/counter-up/jquery.waypoints.min.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/flipclock/timer.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/vendors/counter-up/jquery.counterup.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/js/mail-script.js' }} "></script>
-        <script src="{{ config('view.frontend_theme') . '/js/theme.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/jquery-3.2.1.min.js' }}"></script>
+        <script src="{{ $themeUrl . '/js/popper.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/bootstrap.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/stellar.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/nice-select/js/jquery.nice-select.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/isotope/imagesloaded.pkgd.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/isotope/isotope-min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/jquery.ajaxchimp.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/counter-up/jquery.waypoints.min.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/flipclock/timer.js' }} "></script>
+        <script src="{{ $themeUrl . '/vendors/counter-up/jquery.counterup.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/mail-script.js' }} "></script>
+        <script src="{{ $themeUrl . '/js/theme.js' }} "></script>
 
         @yield('javascript')
     </body>
