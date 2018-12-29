@@ -1,16 +1,21 @@
 <!doctype html>
 <html lang="en">
     <head>
+        @php
+            $themeUrl = url(config('view.frontend_theme'));
+        @endphp
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="icon" href="img/favicon.png" type="image/png">
+
+        <!--Favicon-->
+        <link rel="shortcut icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">
+        <link rel="icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">
+
         <title>{{ config('app.name') }}</title>
-        @php
-            $themeUrl = url(config('view.frontend_theme'));
-        @endphp
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/linericon/style.css'}}">
