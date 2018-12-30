@@ -32,11 +32,11 @@
 <div class="row">
     <div class="col-lg-3">
         <div class="contact_info">
-            <div class="info_item">
+            {{-- <div class="info_item">
                 <i class="lnr lnr-home"></i>
                 <h6> {{ config('draquaculture.address_line1') }} </h6>
                 <p> {{ config('draquaculture.address_line2') }} </p>
-            </div>
+            </div> --}}
             <div class="info_item">
                 {{-- <i class="lnr lnr-phone-handset"></i> --}}
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
