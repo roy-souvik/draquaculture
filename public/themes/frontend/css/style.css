@@ -72,6 +72,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #777777;
+  background: #96dae4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -125,7 +126,8 @@ button:focus {
 .main_box {
   max-width: 1200px;
   margin: auto;
-  background: #fff;
+  /* background: #fff; */
+  background: #8cd2dc;
 }
 
 /* Main Title Area css
@@ -473,7 +475,8 @@ button:focus {
   z-index: 1;
   /* min-height: 900px; */
   min-height: 750px;
-  background: #e8f0f2;
+  /* background: #e8f0f2; */
+  background: #96dae4;
 }
 
 .home_banner_area .banner_inner {
