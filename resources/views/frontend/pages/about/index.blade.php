@@ -22,8 +22,10 @@
         <div class="container">
             <div class="tracking_box_inner1 text-center">
 
-                <p>
-                    We provide solution for aquaculture for sustainable growth and empowerment of our farmer brothers...
+                <p style="font-size: 22px;">
+                    We provide solution for aquaculture for sustainable growth and empowerment of our farmer brothers.
+                    <br>
+                    For this we need new technological solutions to make the fish farmers more profitable and productive.
                 </p>
 
             </div>
