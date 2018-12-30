@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{ $themeUrl . '/css/font-awesome.min.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/nice-select/css/nice-select.css'}}">
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/nice-select/css/nice-select.css'}}"> --}}
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/animate-css/animate.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/jquery-ui/jquery-ui.css'}}">
         <!-- main css -->
@@ -205,15 +205,15 @@
         <script src="{{ $themeUrl . '/js/bootstrap.min.js' }} "></script>
         <script src="{{ $themeUrl . '/js/stellar.js' }} "></script>
         <script src="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/vendors/nice-select/js/jquery.nice-select.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/vendors/isotope/imagesloaded.pkgd.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/vendors/isotope/isotope-min.js' }} "></script>
+        {{-- <script src="{{ $themeUrl . '/vendors/nice-select/js/jquery.nice-select.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/isotope/imagesloaded.pkgd.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/isotope/isotope-min.js' }} "></script> --}}
         <script src="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/js/jquery.ajaxchimp.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/vendors/counter-up/jquery.waypoints.min.js' }} "></script>
-        <script src="{{ $themeUrl . '/vendors/flipclock/timer.js' }} "></script>
+        {{-- <script src="{{ $themeUrl . '/js/jquery.ajaxchimp.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/counter-up/jquery.waypoints.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/flipclock/timer.js' }} "></script> --}}
         <script src="{{ $themeUrl . '/vendors/counter-up/jquery.counterup.js' }} "></script>
-        <script src="{{ $themeUrl . '/js/mail-script.js' }} "></script>
+        {{-- <script src="{{ $themeUrl . '/js/mail-script.js' }} "></script> --}}
         <script src="{{ $themeUrl . '/js/theme.js' }} "></script>
 
         @yield('javascript')

@@ -61,7 +61,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="f_p_item">
                         <div class="f_p_img">
-                            <img class="img-fluid" src="{{ config('view.frontend_theme') . '/product-images//' . $product['image']}}" alt="{{ $product['name'] }}">
+                            <img class="img-fluid img-thumbnail" src="{{ config('view.frontend_theme') . '/product-images//' . $product['image']}}" alt="{{ $product['name'] }}">
                             <div class="p_icon">
                                 {{-- <a href="#"><i class="lnr lnr-heart"></i></a> --}}
                                 <a href="{{ route('public.contactUs') }}"><i class="lnr lnr-cart"></i></a>

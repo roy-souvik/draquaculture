@@ -30,4 +30,11 @@ return [
         ['name' => 'Air Stone', 'image' => '23.jpg'],
     ],
 
+    'fish_products' => [
+        ['name' => 'Fish1', 'image' => '1.jpeg'],
+        ['name' => 'Fish2', 'image' => '4.jpeg'],
+        ['name' => 'Fish3', 'image' => '5.jpeg'],
+        ['name' => 'Fish4', 'image' => '6.jpeg'],
+    ]
+
 ];

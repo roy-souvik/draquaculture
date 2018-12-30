@@ -1,17 +1,17 @@
 ;(function($){
     "use strict"
-	
-	
-	var nav_offset_top = $('header').height() + 50; 
+
+
+	var nav_offset_top = $('header').height() + 50;
     /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
-	//* Navbar Fixed  
+	//* Navbar Fixed
     function navbarFixed(){
-        if ( $('.header_area').length ){ 
+        if ( $('.header_area').length ){
             $(window).scroll(function() {
-                var scroll = $(window).scrollTop();   
+                var scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top ) {
                     $(".header_area").addClass("navbar_fixed");
                 } else {
@@ -21,8 +21,8 @@
         };
     };
     navbarFixed();
-	
-	
+
+
 	/*----------------------------------------------------*/
     /*  Parallax Effect js
     /*----------------------------------------------------*/
@@ -30,14 +30,14 @@
     	$('.bg-parallax').parallax();
 	}
 	parallaxEffect();
-	
+
 	var dropToggle = $('.widgets_inner .list li').has('ul').children('a');
     dropToggle.on('click', function() {
         dropToggle.not(this).closest('li').find('ul').slideUp(200);
         $(this).closest('li').children('ul').slideToggle(200);
         return false;
     });
-	
+
 	/*----------------------------------------------------*/
     /*  Isotope Fillter js
     /*----------------------------------------------------*/
@@ -51,9 +51,9 @@
 //                        duration: 750,
 //                        easing: 'linear'
 //                    }
-//                }); 
+//                });
 //            });
-//			
+//
 //            // Add isotope click function
 //            $(".gallery_filter li").on('click',function(){
 //                $(".gallery_filter li").removeClass("active");
@@ -73,29 +73,29 @@
 //        }
 //    }
 //    gallery_isotope();
-//	
-	
+//
+
 	/*----------------------------------------------------*/
     /*  MailChimp Slider
     /*----------------------------------------------------*/
-    function mailChimp(){
-        $('#mc_embed_signup').find('form').ajaxChimp();
-    }
-    mailChimp();
-	
-	$('select').niceSelect();
-	
+    // function mailChimp(){
+    //     $('#mc_embed_signup').find('form').ajaxChimp();
+    // }
+    // mailChimp();
+    //
+	// $('select').niceSelect();
+
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
     /*----------------------------------------------------*/
     $('.imageGallery1 .light').simpleLightbox();
-	
+
 	$('.counter').counterUp({
 		delay: 10,
 		time: 1000
 	});
-	
-	
+
+
 	/*----------------------------------------------------*/
     /*  Members Slider
     /*----------------------------------------------------*/
@@ -108,7 +108,7 @@
 //                nav: false,
 //                autoplay: false,
 //                smartSpeed: 1500,
-//                dots:true, 
+//                dots:true,
 //				navContainer: '.testimonials_area',
 //                navText: ['<i class="lnr lnr-arrow-up"></i>','<i class="lnr lnr-arrow-down"></i>'],
 //                responsiveClass: true,
@@ -127,13 +127,13 @@
 //        }
 //    }
 //    members_slider();
-	
-	
+
+
 	/*----------------------------------------------------*/
     /*  Members Slider
     /*----------------------------------------------------*/
     function product_slider(){
-        if ( $('.feature_p_slider').length ){
+        if ( $('.feature_p_slider').length ) {
             $('.feature_p_slider').owlCarousel({
                 loop:true,
                 margin: 30,
@@ -141,16 +141,16 @@
                 nav: false,
                 autoplay: false,
                 smartSpeed: 1500,
-                dots:true, 
+                dots:true,
 //				navContainer: '.testimonials_area',
 //                navText: ['<i class="lnr lnr-arrow-up"></i>','<i class="lnr lnr-arrow-down"></i>'],
                 responsiveClass: true,
                 responsive: {
                     0: {
-                        items: 1, 
+                        items: 1,
                     },
                     360: {
-                        items: 2, 
+                        items: 2,
                     },
                     576: {
                         items: 3,
@@ -163,7 +163,7 @@
         }
     }
     product_slider();
-	
+
 	/*----------------------------------------------------*/
     /*  Clients Slider
     /*----------------------------------------------------*/
@@ -176,7 +176,7 @@
                 nav: false,
                 autoplay: false,
                 smartSpeed: 1500,
-                dots:false, 
+                dots:false,
                 responsiveClass: true,
                 responsive: {
                     0: {
@@ -199,27 +199,27 @@
         }
     }
     clients_slider();
-	
+
 	/*----------------------------------------------------*/
     /*  Jquery Ui slider js
     /*----------------------------------------------------*/
-	$( "#slider-range" ).slider({
-      range: true,
-      min: 0,
-      max: 500,
-      values: [ 10, 500 ],
-      slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.values[ 0 ] + " $" + ui.values[ 1 ] );
-      }
-    });
-    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 )+
-      "   $" + $( "#slider-range" ).slider( "values", 1 ) );
-	
-	
+	// $( "#slider-range" ).slider({
+    //   range: true,
+    //   min: 0,
+    //   max: 500,
+    //   values: [ 10, 500 ],
+    //   slide: function( event, ui ) {
+    //     $( "#amount" ).val( "$" + ui.values[ 0 ] + " $" + ui.values[ 1 ] );
+    //   }
+    // });
+    // $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 )+
+    //   "   $" + $( "#slider-range" ).slider( "values", 1 ) );
+
+
 	/*----------------------------------------------------*/
     /*  Google map js
     /*----------------------------------------------------*/
-     
+
     if ( $('#mapBox').length ){
         var $lat = $('#mapBox').data('lat');
         var $lon = $('#mapBox').data('lon');
@@ -426,6 +426,6 @@
             ]
         });
     }
-	
+
 
 })(jQuery)
