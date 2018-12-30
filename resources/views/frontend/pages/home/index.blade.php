@@ -47,8 +47,8 @@
             </div> --}}
             <div class="feature_product_inner">
                 <div class="main_title">
-                    <h2>Featured Products</h2>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                    <h2>Suitable for Aquaculture like</h2>
+                    {{-- <p>Who are in extremely love with eco friendly system.</p> --}}
                 </div>
                 <div class="feature_p_slider owl-carousel">
 

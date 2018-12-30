@@ -31,10 +31,10 @@ return [
     ],
 
     'fish_products' => [
-        ['name' => 'Fish1', 'image' => '1.jpeg'],
-        ['name' => 'Fish2', 'image' => '4.jpeg'],
-        ['name' => 'Fish3', 'image' => '5.jpeg'],
-        ['name' => 'Fish4', 'image' => '6.jpeg'],
+        ['name' => 'Talapia', 'image' => '4.jpeg'],
+        ['name' => 'Nursing of seed', 'image' => '5.jpeg'],
+        ['name' => 'Carp', 'image' => '6.jpeg'],
+        ['name' => 'Catfish', 'image' => '1.jpeg'],
     ]
 
 ];
