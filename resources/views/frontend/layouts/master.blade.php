@@ -146,13 +146,14 @@
                             <h6 class="footer_title">Newsletter</h6>
                             <p>Stay updated with our latest trends</p>
                             <div id="mc_embed_signup">
-                                <form target="_blank" action="#" method="get" class="subscribe_form relative">
+                                 <a href="{{ route('public.contactUs') }}"> Click here to Contact Us </a>
+                                {{-- <form target="_blank" action="#" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
                                         <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
                                         <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
                                     </div>
                                     <div class="mt-10 info"></div>
-                                </form>
+                                </form> --}}
                             </div>
                         </div>
                     </div>

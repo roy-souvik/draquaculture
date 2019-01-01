@@ -84,41 +84,5 @@
 @endsection
 
 @section('javascript')
-    <script type="text/javascript">
-		$(document).ready(function(){
-            $('form.contact_form').on('submit', function(e) {
-    		e.preventDefault();
 
-    		var name = $('#name').val();
-    		var email = $('#email').val();
-    		var subject = $('#subject').val();
-            var message = $('#message').val();
-
-    		$.ajax({
-    			url:'https://formspree.io/{{ config('draquaculture.support_email') }}',
-    			method:'POST',
-    			data:{
-    				name: name,
-    				email: email,
-                    _replyto: email,
-    				subject: subject,
-    				_subject: subject,
-                    message: message
-    			},
-    			dataType:"json",
-    			success:function(data) {
-    				console.log('success: ', data);
-    				alert('Mail sent successfully. We will contact you shortly.');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#subject').val('');
-                    $('#message').val('');
-    			}
-
-    		});
-
-    	});
-
-		});
-	</script>
 @endsection

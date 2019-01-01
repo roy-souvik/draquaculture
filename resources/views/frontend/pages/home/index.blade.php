@@ -156,13 +156,24 @@
 <section class="clients_logo_area">
     <div class="container">
         <div class="main_title">
-            <h2>Exclusive Video!</h2>
+            <h2>Exclusive Videos!</h2>
             {{-- <p>Who are in extremely love with eco friendly system.</p> --}}
         </div>
 
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/61_zthTcH04" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kAKPGu9Mtbg" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/61_zthTcH04" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
+
+
         {{-- <div class="clients_slider owl-carousel">
             <div class="item">
                 <img src="img/clients-logo/c-logo-1.png" alt="">
