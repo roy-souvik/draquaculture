@@ -474,7 +474,7 @@ button:focus {
   position: relative;
   z-index: 1;
   /* min-height: 900px; */
-  min-height: 750px;
+  /* min-height: 750px; */
   /* background: #e8f0f2; */
   background: #96dae4;
 }
@@ -483,7 +483,8 @@ button:focus {
   position: relative;
   width: 100%;
   /* min-height: 900px; */
-  min-height: 800px;
+  /* min-height: 800px; */
+  min-height: 650px;
 }
 
 .home_banner_area .banner_inner .overlay {

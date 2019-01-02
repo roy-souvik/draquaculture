@@ -152,7 +152,19 @@
 </section>
 <!--================End Latest Product Area =================-->
 
-<!--================Clients Logo Area =================-->
+<section class="most_product_area" style="margin-top: 65px;">
+    <div class="container">
+        <div class="main_title">
+            <h2>Product Packages</h2>
+
+        </div>
+
+        @include('frontend.pages.packages.list')
+    </div>
+</section>
+
+
+
 <section class="clients_logo_area">
     <div class="container">
         <div class="main_title">
@@ -193,7 +205,7 @@
         </div> --}}
     </div>
 </section>
-<!--================End Clients Logo Area =================-->
+
 
 <!--================Most Product Area =================-->
 {{-- <section class="most_product_area">
