@@ -60,6 +60,9 @@
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
+                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Enter Mobile" required>
+                </div>
+                <div class="form-group">
                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required>
                 </div>
                 <div class="form-group">
