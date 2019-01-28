@@ -18,6 +18,11 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+        <meta name="Keywords" content="Biofloc fish farming in India, Online Biofloc Shopping in India, Biofloc Technology"/>
+        <meta name="description" content="biofloc fish farming in India">
+
+        <meta name="robots" content="index, follow" />
+
         <!--Favicon-->
         <link rel="shortcut icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">
         <link rel="icon" href="{{ $themeUrl . '/img/favicon.png' }}" type="image/x-icon">

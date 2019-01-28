@@ -152,19 +152,6 @@
 </section>
 <!--================End Latest Product Area =================-->
 
-<section class="most_product_area" style="margin-top: 65px;">
-    <div class="container">
-        <div class="main_title">
-            <h2>Product Packages</h2>
-
-        </div>
-
-        @include('frontend.pages.packages.list')
-    </div>
-</section>
-
-
-
 <section class="clients_logo_area">
     <div class="container">
         <div class="main_title">
@@ -173,6 +160,25 @@
         </div>
 
         <div class="row">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TgU28XMpFAU" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/71Wtcrk8Fys" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n_1HVbkIp68" allowfullscreen></iframe>
+                </div>
+            </div>
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kAKPGu9Mtbg" allowfullscreen></iframe>
