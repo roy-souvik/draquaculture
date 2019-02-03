@@ -30,17 +30,17 @@
         <title>{{ strtoupper(config('app.name')) }}</title>
 
         <!-- Bootstrap CSS -->
-        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/linericon/style.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/css/font-awesome.min.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.css'}}">
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/nice-select/css/nice-select.css'}}"> --}}
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/animate-css/animate.css'}}">
         <link rel="stylesheet" href="{{ $themeUrl . '/vendors/jquery-ui/jquery-ui.css'}}">
+        <!-- main css -->
         <link rel="stylesheet" href="{{ $themeUrl . '/css/style.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/css/responsive.css'}}"> --}}
-        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Roboto:300,400,500,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}" />
+        <link rel="stylesheet" href="{{ $themeUrl . '/css/responsive.css'}}">
     </head>
     <body>
 
@@ -201,7 +201,9 @@
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
                     <p class="col-lg-12 footer-text text-center">
                         Copyright &copy;
-                        {{ date('Y') }} All rights reserved | Maintained by
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | Maintained by
                         <a href="http://cerebroit.com" target="_blank">Cerebroit Services</a>
 
                     </p>
@@ -212,17 +214,21 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        {{-- <script src="{{ $themeUrl . '/js/jquery-3.2.1.min.js' }}"></script>
+        <script src="{{ $themeUrl . '/js/jquery-3.2.1.min.js' }}"></script>
         <script src="{{ $themeUrl . '/js/popper.js' }} "></script>
         <script src="{{ $themeUrl . '/js/bootstrap.min.js' }} "></script>
         <script src="{{ $themeUrl . '/js/stellar.js' }} "></script>
         <script src="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.min.js' }} "></script>
+        {{-- <script src="{{ $themeUrl . '/vendors/nice-select/js/jquery.nice-select.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/isotope/imagesloaded.pkgd.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/isotope/isotope-min.js' }} "></script> --}}
         <script src="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.js' }} "></script>
+        {{-- <script src="{{ $themeUrl . '/js/jquery.ajaxchimp.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/counter-up/jquery.waypoints.min.js' }} "></script> --}}
+        {{-- <script src="{{ $themeUrl . '/vendors/flipclock/timer.js' }} "></script> --}}
         <script src="{{ $themeUrl . '/vendors/counter-up/jquery.counterup.js' }} "></script>
-        <script src="{{ $themeUrl . '/js/theme.js' }} "></script> --}}
-
-        {{-- <script src="{{ asset('js/manifest.js') }}"></script> --}}
-        <script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+        {{-- <script src="{{ $themeUrl . '/js/mail-script.js' }} "></script> --}}
+        <script src="{{ $themeUrl . '/js/theme.js' }} "></script>
 
         @yield('javascript')
     </body>
