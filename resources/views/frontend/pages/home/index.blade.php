@@ -162,12 +162,12 @@
         <div class="row">
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TgU28XMpFAU" allowfullscreen></iframe>
+                  <iframe title="Ait blower for biofloc" class="embed-responsive-item" src="https://www.youtube.com/embed/TgU28XMpFAU" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/71Wtcrk8Fys" allowfullscreen></iframe>
+                  <iframe title="Air blower for biofloc" class="embed-responsive-item" src="https://www.youtube.com/embed/71Wtcrk8Fys" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -176,17 +176,17 @@
         <div class="row mt-5">
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n_1HVbkIp68" allowfullscreen></iframe>
+                  <iframe title="PVC Tarpulin tank" class="embed-responsive-item" src="https://www.youtube.com/embed/n_1HVbkIp68" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kAKPGu9Mtbg" allowfullscreen></iframe>
+                  <iframe title="PVC Tarpulin tank" class="embed-responsive-item" src="https://www.youtube.com/embed/kAKPGu9Mtbg" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/61_zthTcH04" allowfullscreen></iframe>
+                  <iframe title="Tarpulin fish tank" class="embed-responsive-item" src="https://www.youtube.com/embed/61_zthTcH04" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
