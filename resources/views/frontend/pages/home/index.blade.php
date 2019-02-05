@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="halemet_img">
-                        <img class="img-thumbnail" src="{{ config('view.frontend_theme') . '/img/banner/banner3.jpeg' }}" alt="" style="width: 350px;">
+                        <img class="img-thumbnail" src="{{ config('view.frontend_theme') . '/img/banner/banner3.jpeg' }}" alt="PVC tarpaulin tank" style="width: 350px;">
                     </div>
                 </div>
             </div>
