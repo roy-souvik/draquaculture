@@ -12,9 +12,12 @@ return [
     'address_line2' => ' Kolkata 700034, West Bengal',
 
     'products' => [
+        ['name' => 'SUNSUN HJB 120', 'image' => 'SUNSUN_HJB_120.webp'],
+        ['name' => 'SUNSUN ACO MODEL', 'image' => 'SUNSUN_ACO_MODEL.webp'],
         ['name' => 'Air Stone', 'image' => '2.jpeg'],
         ['name' => 'Air Blower', 'image' => '3.jpeg'],
         ['name' => 'Wire Mesh Tank', 'image' => '7.jpeg'],
+        ['name' => 'SUNSUN PG 120', 'image' => 'SUNSUN_PG_120.jpg'],
         ['name' => 'PVC Portable Tank', 'image' => '8.jpeg'],
         // ['name' => 'Air Stone', 'image' => '9.jpeg'],
         // ['name' => 'Air Stone', 'image' => '11.jpeg'],
