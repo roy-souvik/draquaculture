@@ -54,14 +54,15 @@
                         </a>
 						<a href="#">Welcome to {{ strtoupper(config('app.name')) }}</a>
 					</div>
-					{{-- <div class="float-right">
+					<div class="float-right">
 						<ul class="header_social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							{{-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li> --}}
 						</ul>
-					</div> --}}
+					</div>
            		</div>
            	</div>
             <div class="main_menu">
@@ -88,9 +89,9 @@
                                     <a class="nav-link" href="{{ route('public.shop') }}">Products</a>
                                 </li>
 
-                                <li class="nav-item {{  Route::currentRouteNamed('public.productPackages') ? 'active' : '' }}">
+                                {{-- <li class="nav-item {{  Route::currentRouteNamed('public.productPackages') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.productPackages') }}">Product Packages</a>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item {{  Route::currentRouteNamed('public.aboutUs') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('public.aboutUs') }}">About</a>

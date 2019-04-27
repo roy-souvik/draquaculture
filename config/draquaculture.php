@@ -7,14 +7,14 @@ return [
 
     'contact_phone' => '+91 7348156071',
 
-    'address_line1' => '40 Sisir Bagan Road',
+    'address_line1' => '46/21 Sisir Bagan Road',
 
-    'address_line2' => ' Kolkata 700034, West Bengal',
+    'address_line2' => ' Near Sisir sangha Club, Behala, Kolkata: 700034, West Bengal',
 
     'products' => [
         ['name' => 'SUNSUN HJB 120', 'image' => 'SUNSUN_HJB_120.webp'],
         ['name' => 'SUNSUN ACO MODEL', 'image' => 'SUNSUN_ACO_MODEL.webp'],
-        ['name' => 'Air Stone', 'image' => '2.jpeg'],
+        // ['name' => 'Air Stone', 'image' => '2.jpeg'],
         ['name' => 'Air Blower', 'image' => '3.jpeg'],
         ['name' => 'Wire Mesh Tank', 'image' => '7.jpeg'],
         ['name' => 'SUNSUN PG 120', 'image' => 'SUNSUN_PG_120.jpg'],

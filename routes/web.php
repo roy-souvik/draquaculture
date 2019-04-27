@@ -35,10 +35,10 @@ Route::get('/products', [
     'as' => 'public.shop'
 ]);
 
-Route::get('/product-packages', [
-    'uses' => 'ShopController@packages',
-    'as' => 'public.productPackages'
-]);
+// Route::get('/product-packages', [
+//     'uses' => 'ShopController@packages',
+//     'as' => 'public.productPackages'
+// ]);
 
 Route::get('/shop', [
     'uses' => 'ShopController@index',
