@@ -36,7 +36,7 @@ mix.scripts([
 
 mix.copy([
     'public/themes/frontend/fonts'
-], 'public/font');
+], 'public/fonts');
 
 mix.copy([
     'public/themes/frontend/vendors/linericon/fonts'

@@ -30,15 +30,15 @@
         <title>{{ strtoupper(config('app.name')) }}</title>
 
         <!-- Bootstrap CSS -->
-        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/linericon/style.css'}}">
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/css/bootstrap.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/linericon/style.css'}}"> --}}
         <link rel="stylesheet" href="{{ $themeUrl . '/css/font-awesome.min.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/animate-css/animate.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/vendors/jquery-ui/jquery-ui.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/css/style.css'}}">
-        <link rel="stylesheet" href="{{ $themeUrl . '/css/responsive.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/owl-carousel/owl.carousel.min.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/lightbox/simpleLightbox.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/animate-css/animate.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/vendors/jquery-ui/jquery-ui.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/css/style.css'}}"> --}}
+        {{-- <link rel="stylesheet" href="{{ $themeUrl . '/css/responsive.css'}}"> --}}
         <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Roboto:300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}" />
     </head>
