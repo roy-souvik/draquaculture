@@ -56,8 +56,18 @@
 					</div>
 					<div class="float-right">
 						<ul class="header_social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							<li>
+                                <a href="https://www.facebook.com/DrAquaculture" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCDPHchar0Snl6kqK_tXu9PA" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+
 							{{-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 							<li><a href="#"><i class="fa fa-behance"></i></a></li> --}}

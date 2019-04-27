@@ -57,14 +57,11 @@
         <div class="contact_info">
             <div class="info_item">
                 <h6> Bank Details </h6>
+
                 <p> STATE BANK OF INDIA </p>
-
                 <p>BRANCH: BEHALA KOLKATA</p>
-
                 <p>M/S DR AQUACULTURE</p>
-
                 <p>A/C NO: 38351682356</p>
-
                 <p>IFSC: SBIN0001522</p>
 
             </div>
