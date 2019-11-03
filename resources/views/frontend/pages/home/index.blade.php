@@ -152,6 +152,50 @@
 </section>
 <!--================End Latest Product Area =================-->
 
+<section class="clients_logo_area" style="padding-bottom:0px;" >
+
+    <div class="container">
+        <div class="main_title" id="available-fishes">
+            <h2>
+                <a href="#available-fishes">All types & sizes of Bio Flock & Pond fish are available</a>
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 offset-lg-3 offset-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Vietnam Koi</li>
+                    <li class="list-group-item">Pangacious</li>
+                    <li class="list-group-item">Desi Singhee</li>
+                    <li class="list-group-item">Desi Mangur</li>
+                    <li class="list-group-item">Pabda</li>
+                    <li class="list-group-item">Tengra</li>
+                    <li class="list-group-item">Prawn</li>
+                    <li class="list-group-item">Rohu</li>
+                    <li class="list-group-item">Mrigal</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Silver carp (Big had)</li>
+                    <li class="list-group-item">Grass carp</li>
+                    <li class="list-group-item">Common carp</li>
+                    <li class="list-group-item">Bata</li>
+                    <li class="list-group-item">Chital</li>
+                    <li class="list-group-item">Roop Chanda</li>
+                    <li class="list-group-item">Hybrid Kawai</li>
+                    <li class="list-group-item">Katla</li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 <section class="clients_logo_area">
     <div class="container">
         <div class="main_title">
