@@ -179,6 +179,10 @@
                                     <div class="mt-10 info"></div>
                                 </form> --}}
                             </div>
+
+                            <a class="whatsapp-icon-wrapper" href="http://api.whatsapp.com/send?phone=919330266203" target="_blank">
+                                <i class="fa fa-whatsapp whatsapp-icon"></i>
+                            </a>
                         </div>
                     </div>
                     {{-- <div class="col-lg-3 col-md-6 col-sm-6">

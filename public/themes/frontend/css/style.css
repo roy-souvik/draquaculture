@@ -5945,6 +5945,25 @@ h6 {
   margin-right: 0px;
 }
 
+.whatsapp-icon-wrapper {
+	position:fixed;
+	width:3.75rem;
+	height:3.75rem;
+	bottom:2.5rem;
+	right:1rem;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:2em;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
