@@ -180,7 +180,7 @@
                                 </form> --}}
                             </div>
 
-                            <a class="whatsapp-icon-wrapper" href="http://api.whatsapp.com/send?phone=919330266203" target="_blank">
+                            <a class="whatsapp-icon-wrapper" href="http://api.whatsapp.com/send?phone=919330266203&text=Hi, DrAquaculture" target="_blank">
                                 <i class="fa fa-whatsapp whatsapp-icon"></i>
                             </a>
                         </div>
