@@ -185,21 +185,16 @@
                             </a>
                         </div>
                     </div>
-                    {{-- <div class="col-lg-3 col-md-6 col-sm-6">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">Instagram Feed</h6>
-                            <ul class="list instafeed d-flex flex-wrap">
-                                <li><img src="img/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-08.jpg" alt=""></li>
-                            </ul>
+
+                            <a target="_blank" href="https://www.amazon.in/b?_encoding=UTF8&tag=dharam2712-21&linkCode=ur2&linkId=82a6e91c1121ed216c4c993c2023b865&camp=3638&creative=24630&node=4771339031">
+                                Add space
+                            </a>
+                            <img src="//ir-in.amazon-adsystem.com/e/ir?t=dharam2712-21&l=ur2&o=31" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
                         </div>
-                    </div> --}}
+                    </div>
                     {{-- <div class="col-lg-2 offset-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget f_social_wd">
                             <h6 class="footer_title">Follow Us</h6>
@@ -217,7 +212,7 @@
                     <p class="col-lg-12 footer-text text-center">
                         Copyright &copy;
                         {{ date('Y') }} All rights reserved | Maintained by
-                        <a href="http://cerebroit.com" target="_blank">Cerebroit Services</a>
+                        <a href="#" target="_blank">Cerebroit Services</a>
 
                     </p>
                 </div>
